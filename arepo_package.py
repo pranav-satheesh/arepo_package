@@ -8,7 +8,12 @@ import sys
 #%pylab inline
 import matplotlib.cm as cm  
 import numpy
-import illustris_python as il
+
+
+
+sys.path.append('/home/pranavsatheesh/arepo_package/BRAHMA_python/')
+import BRAHMA_python as il
+#import illustris_python as il
 import os
 #from kdcount import correlate
 import scipy
